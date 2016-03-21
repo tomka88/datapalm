@@ -1,12 +1,19 @@
 header
-	height: 470px
-	background: #F0F0ED
+	height: 550px
+	background: url(../img/hero2.jpg) center center
+	background-size: cover
 
 	.logo
-		+size(90px)
-		background: #00A69A
+		+size(70px)
+		float: left
+		margin: 10px 0 0 30px
+
+		path
+			fill: rgba(0,166,154,0.6)
 
 	nav
+		float: right
+		margin: 30px 30px 0 0
 
 	a
 		display: inline-block
@@ -16,13 +23,32 @@ header
 		font:
 			size: 24
 			weight: 700
+		text-transform: uppercase
 
 		&:hover
 			color: #F0F0ED
 
 	h1
+		text-align: center
 		font:
 			size: 72px
 			weight: 700
 		color: white
-		letter-spacing: 0.03em
+		letter-spacing: 0.07em
+		margin-bottom: 20px
+		clear: both
+		padding-top: 100px
+
+		span
+			display: inline-block
+			padding: 0.2em 0.5em
+			border: white solid 7px 
+
+	.kicker
+		text-align: center
+		font:
+			weight: 700
+			size: 38px
+		letter-spacing: 0.05em
+		color: white
+		height: 1
