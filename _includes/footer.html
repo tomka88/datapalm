@@ -4,23 +4,26 @@
 	
 	<div class="content-wrap">
 		<nav>
-			<a href="">About Us</a>
-			<a href="">Contact</a>
-			<a href="">Blog</a>
+			<div>
+				<a href="">Home</a>
+				<a href="">About Us</a>
+				<a href="">Blog</a>
+				<a href="">Contact</a>
+			</div>
 		</nav>	
 
-		<body>
-			<div class="copyright">
-				<p>Copyright © 2016 • All rights reserved datapalm.io • Made with ♥ in Berlin</p>
+		<div class="social-footer">
+			<div>
+				<a href="" class="social">Connect</a>
 			</div>
-
-		<div id="footer-social-icons">
-			<li> Facebook</li>
-			<li> Twitter</li>
-			<li> GitHub</li>
+			<div class="social-icon">{% include icons/fb-icon.html %}</div>
+			<div class="social-icon">{% include icons/tw-icon.html %}</div>
+			<div class="social-icon">{% include icons/gh-icon.html %}</div>
 		</div>
 
-		</body>
+		<div class="copyright">
+			<p>Copyright © 2016 • All rights reserved datapalm.io • Made with ♥ in Berlin</p>
+		</div>
 	</div>
 </div>
 </footer>
