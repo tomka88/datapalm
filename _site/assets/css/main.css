@@ -295,7 +295,9 @@ footer {
     margin-left: 7px;
     margin-right: 7px; }
   footer nav {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 120px; }
   footer a {
     font-size: 16px;
     font-weight: 700;
@@ -307,7 +309,11 @@ footer {
     font-weight: 700;
     color: white; }
   footer .social-footer {
-    margin-right: 200px;
+    margin-right: 50px;
+    float: right;
+    padding-top: 5px; }
+  footer .social-header {
+    margin-right: 88px;
     float: right; }
   footer .copyright {
     margin-top: 70px;
