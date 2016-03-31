@@ -1,3 +1,11 @@
+# Site settings
+title: datapalm.io
+email: datapalm.io@gmail.com
+description: making sense of data
+twitter: https://twitter.com/datapalm_io
+facebook: https://www.facebook.com/datapalm/?fref=ts
+github: https://github.com/datapalm
+
 # Build settings
 
 markdown: kramdown
