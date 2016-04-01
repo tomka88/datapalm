@@ -323,3 +323,18 @@ footer {
     font-size: 14px;
     color: #FFFFFF;
     text-align: center; }
+
+body {
+  background-color: #F0F0ED; }
+  body .blog-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    width: 504px;
+    height: 336px;
+    background: url(../img/hero3.jpg) center center;
+    background-size: cover; }
+  body .excerpt {
+    font-size: 20px;
+    width: 800px;
+    float: right; }
