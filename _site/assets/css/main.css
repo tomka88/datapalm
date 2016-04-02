@@ -326,15 +326,30 @@ footer {
 
 body {
   background-color: #F0F0ED; }
+  body .post-wrapper {
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+    margin-bottom: 70px; }
   body .blog-title {
-    font-size: 30px;
-    text-transform: uppercase;
+    font-size: 12px;
     color: white;
     width: 504px;
     height: 336px;
     background: url(../img/hero3.jpg) center center;
-    background-size: cover; }
+    background-size: cover;
+    float: left; }
+  body .title-title {
+    font-size: 46px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 30px;
+    background-color: #F0AE64;
+    background-opacity: 0.4; }
   body .excerpt {
+    float: left;
+    padding-left: 30px; }
+  body .teaser {
     font-size: 20px;
-    width: 800px;
-    float: right; }
+    width: 600px; }
