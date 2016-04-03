@@ -218,7 +218,7 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 body {
-  background: #F6F6F8;
+  background: #F0F0ED;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
@@ -324,15 +324,17 @@ footer {
     color: #FFFFFF;
     text-align: center; }
 
-body {
-  background-color: #F0F0ED; }
-  body .post-wrapper {
+section {
+  background-color: #F0F0ED;
+  height: 500px; }
+  section .post-wrapper {
     height: 500px;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 60px;
-    margin-bottom: 70px; }
-  body .blog-title {
+    margin-bottom: 70px;
+    clear: left; }
+  section .blog-title {
     font-size: 12px;
     color: white;
     width: 504px;
@@ -340,16 +342,29 @@ body {
     background: url(../img/hero3.jpg) center center;
     background-size: cover;
     float: left; }
-  body .title-title {
+  section .title-title {
     font-size: 46px;
     color: white;
     padding-left: 15px;
     padding-top: 30px;
-    background-color: #F0AE64;
-    background-opacity: 0.4; }
-  body .excerpt {
+    margin: 15px;
+    background-color: #F0AE64; }
+  section .excerpt {
     float: left;
-    padding-left: 30px; }
-  body .teaser {
+    padding: 15px; }
+  section .teaser {
     font-size: 20px;
-    width: 600px; }
+    width: 650px; }
+  section .read-more {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 120px;
+    height: 30px;
+    background: #00A69A;
+    vertical-align: text-bottom;
+    padding: 3px; }
+  section .stamp {
+    font-size: 16px;
+    color: #727272;
+    vertical-align: text-top; }
