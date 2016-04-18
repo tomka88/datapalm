@@ -349,9 +349,54 @@ section {
     color: #727272;
     vertical-align: text-top; }
 
+.post {
+  background: #F0F0ED; }
+
+.post-hero {
+  height: 600px;
+  background: url(../img/hero3.jpg) center center;
+  background-size: cover; }
+
+.post-title {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.07em;
+  margin-bottom: 20px;
+  clear: both;
+  padding-top: 150px; }
+  .post-title span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: white solid 7px; }
+
 .hero {
   height: 600px;
   background: url(../img/hero2.jpg) center center;
+  background-size: cover; }
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.07em;
+  margin-bottom: 20px;
+  clear: both;
+  padding-top: 150px; }
+
+.kicker {
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: 0.05em;
+  color: white;
+  height: 1; }
+
+.about-hero {
+  height: 600px;
+  background: url(../img/hero5.jpeg) center center;
   background-size: cover; }
 
 h1 {
@@ -367,11 +412,3 @@ h1 {
     display: inline-block;
     padding: 0.2em 0.5em;
     border: white solid 7px; }
-
-.kicker {
-  text-align: center;
-  font-weight: 700;
-  font-size: 38px;
-  letter-spacing: 0.05em;
-  color: white;
-  height: 1; }
