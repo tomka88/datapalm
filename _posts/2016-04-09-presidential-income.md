@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Presidential Income
-author: Paulo
+author: Paulo 
 ---
 
 ## How much should a world leader get paid?

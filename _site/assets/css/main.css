@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -143,13 +144,13 @@ td, th {
   padding: 0; }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+  font-weight: 400, 300;
+  src: local("Roboto"), local("Roboto") url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,500); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #BD5248;
+  color: #727272;
   font-weight: bold; }
 
 .gigantic {
@@ -195,12 +196,12 @@ hr {
   height: 0; }
 
 a {
-  color: #BD5248;
+  color: #727272;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #d89993; }
+  color: #a5a5a5; }
 
 ::selection {
   background: #FFF498; }
@@ -219,10 +220,10 @@ body {
 
 body {
   background: #F0F0ED;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.6;
-  font-family: "Open Sans" sans-serif;
-  color: #2E2D33;
+  font-family: "Roboto" sans-serif;
+  color: #212121;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
@@ -366,10 +367,32 @@ section {
   margin-bottom: 20px;
   clear: both;
   padding-top: 150px; }
-  .post-title span {
-    display: inline-block;
-    padding: 0.2em 0.5em;
-    border: white solid 7px; }
+
+.entry {
+  margin: 50px 70px 0px 70px;
+  line-height: 1.75em; }
+
+.date {
+  margin: 30px 70px 50px 70px;
+  font-size: 14px;
+  font-color: #727272; }
+
+blockquote {
+  border-left: 10px bold;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”" "‘" "’"; }
+
+blockquote:before {
+  color: #3BBAB0;
+  content: open-quote;
+  font-size: 24px;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; }
+
+blockquote p {
+  display: inline; }
 
 .hero {
   height: 600px;
