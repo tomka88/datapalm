@@ -144,14 +144,15 @@ td, th {
   padding: 0; }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto Condensed';
   font-style: normal;
-  font-weight: 400, 300;
-  src: local("Roboto"), local("Roboto") url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,500); }
+  font-weight: 400;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsIPxuqWfQuZGbz5Rz4Zu1gk.woff2) format("woff2"); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #727272;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: Roboto Condensed; }
 
 .gigantic {
   font-size: 110px;
@@ -195,6 +196,23 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+blockquote {
+  border-left: 10px bold;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”" "‘" "’"; }
+
+blockquote:before {
+  color: #3BBAB0;
+  content: open-quote;
+  font-size: 24px;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; }
+
+blockquote p {
+  display: inline; }
+
 a {
   color: #727272;
   text-decoration: none;
@@ -222,7 +240,7 @@ body {
   background: #F0F0ED;
   font-size: 18px;
   line-height: 1.6;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #212121;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -376,23 +394,6 @@ section {
   margin: 30px 70px 50px 70px;
   font-size: 14px;
   font-color: #727272; }
-
-blockquote {
-  border-left: 10px bold;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "“" "”" "‘" "’"; }
-
-blockquote:before {
-  color: #3BBAB0;
-  content: open-quote;
-  font-size: 24px;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em; }
-
-blockquote p {
-  display: inline; }
 
 .hero {
   height: 600px;
