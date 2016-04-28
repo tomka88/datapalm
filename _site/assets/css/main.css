@@ -148,11 +148,15 @@ td, th {
   font-style: normal;
   font-weight: 400;
   src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsIPxuqWfQuZGbz5Rz4Zu1gk.woff2) format("woff2"); }
+@font-face {
+  font-family: 'Oswald Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Oswald Light"), local("Oswald-Light"), url(https://fonts.gstatic.com/s/oswald/v10/l1cOQ90roY9yC7voEhngDIX0hVgzZQUfRDuZrPvH3D8.woff2) format("woff2"); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #727272;
-  font-weight: bold;
-  font-family: Roboto Condensed; }
+  font-family: Oswald Light; }
 
 .gigantic {
   font-size: 110px;
@@ -319,25 +323,16 @@ footer {
     text-align: center; }
 
 section {
-  background-color: #F0F0ED;
-  height: 500px; }
+  background-color: #F0F0ED; }
+  section .post-list {
+    list-style: none; }
   section .post-wrapper {
-    height: 500px;
+    height: 380px;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 60px;
     margin-bottom: 70px;
     clear: left; }
-  section .blog-title {
-    font-size: 12px;
-    color: white;
-    width: 504px;
-    height: 336px;
-    background: url(../img/hero3.jpg) center center;
-    background-size: cover;
-    float: left;
-    position: relative;
-    overflow: hidden; }
   @media screen and (max-width: 650px) {
     section .blog-title {
       display: block; } }
@@ -373,7 +368,6 @@ section {
 
 .post-hero {
   height: 600px;
-  background: url(../img/hero3.jpg) center center;
   background-size: cover; }
 
 .post-title {

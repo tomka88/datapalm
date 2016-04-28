@@ -14,15 +14,16 @@
 
 {% include header.html %}
 <article class="post">
-	<div class="post-hero">
+	<div class="post-hero" style="background-image: url(/assets/heroimg/{{ page.hero_image }}); background-position: center center">
 		  <h1 class="post-title">{{ page.title }}</h1>
+		  <!-- <img src="{{ site.baseurl }}/heroimg/{{ post.image }}"> -->
 	</div>
 	  <div class="entry">
 	    {{ content }}
 	  </div>
 
 	  <div class="date">
-	    Written on {{ page.date | date: "%B %e, %Y" }} by {{ author.name }}
+	    Written on {{ page.date | date: "%B %e, %Y" }} by {{ page.author }}
 	  </div>
 
 	  {% include disqus.html %}

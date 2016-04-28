@@ -147,10 +147,18 @@ td, th {
   font-style: normal;
   font-weight: 400;
   src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsIPxuqWfQuZGbz5Rz4Zu1gk.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Oswald Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v10/l1cOQ90roY9yC7voEhngDIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+}
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Condensed"
+  font-family: "Oswald Light"
   color: #212121;
   font-weight: 400; }
 

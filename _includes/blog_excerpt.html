@@ -1,20 +1,18 @@
 <section>
-	<div class="post-wrapper">
-		<div class="blog-title">
-			<h3 class="title-title">{{ post.title }}</h3>
-		</div>
-		<div class="excerpt">
-			<p class="stamp">Author goes here | Date goes here: 2016-04-19 </p> <br>
-			<p class="teaser">Article excerpt goes here</p>
-			<a href="#" class="read-more">Read More</a>
-		<ul>
-		  {% for post in site.posts %}
-		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
-		    </li>
-		  {% endfor %}
-		</ul>
-
-		</div>
-	</div>
+	<ul class = "post-list">
+		{% for post in site.posts %}
+		<li>
+			<div class="post-wrapper">
+				<div style="background-image: url(/assets/heroimg/{{ post.hero_image }}); font-size: 12px; color: white; width: 504px; height: 336px; background-size: cover; float: left; position: relative; overflow: hidden">
+					<h3 class="title-title">{{ post.title }}</h3>
+				</div>
+				<div class="excerpt">
+					<p class="stamp"> {{ post.author }} | {{ post.date | date: "%B %e, %Y" }} </p> <br>
+					<p class="teaser">{{ post.excerpt }}</p>
+					<a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read More</a>
+				</div>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
 </section>

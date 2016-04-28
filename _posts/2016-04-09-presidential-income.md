@@ -2,6 +2,8 @@
 layout: posts
 title: Presidential Income
 author: Paulo 
+hero_image: hero6.jpg
+excerpt: he topic of world leader salaries seldom make it to the front page of newspapers. Yet there is a story to be told behind the numbers. To this day, I have not come across a formula as to how much the “most important job” in each country ought to be remunerated. Yet, one may expect the salary to be proportional to a country’s development indicator. 
 ---
 
 ## How much should a world leader get paid?
