@@ -448,15 +448,34 @@ h1 {
     padding: 0.2em 0.5em;
     border: white solid 7px; }
 
+.quote {
+  background-color: #3BBAB0; }
+
+.about-quote {
+  text-align: center;
+  width: 100%;
+  height: 200px; }
+  .about-quote h3 {
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: white; }
+  .about-quote p {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 18px;
+    font-style: italic;
+    color: white; }
+
 section {
   margin-top: 10px;
   padding-left: 40px;
   padding-right: 200px; }
   section img {
-    width: 280px; }
+    width: 250px; }
   section .wrapper {
     height: 400px;
-    width: 800px;
     margin: 0 auto; }
   section .about-team {
     width: 300px;
