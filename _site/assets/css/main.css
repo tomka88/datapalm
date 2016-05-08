@@ -416,17 +416,50 @@ h1 {
   height: 600px;
   background: url(../img/hero5.jpeg) center center;
   background-size: cover; }
-
-h1 {
-  text-align: center;
-  font-size: 72px;
-  font-weight: 700;
-  color: white;
-  letter-spacing: 0.07em;
-  margin-bottom: 20px;
-  clear: both;
-  padding-top: 150px; }
-  h1 span {
+  .about-hero h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.07em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 150px; }
+  .about-hero span {
     display: inline-block;
     padding: 0.2em 0.5em;
     border: white solid 7px; }
+
+.contact-hero {
+  height: 600px;
+  background: url(../img/hero9.jpg) center center;
+  background-size: cover; }
+  .contact-hero h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.07em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 150px; }
+  .contact-hero span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: white solid 7px; }
+
+section {
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 200px; }
+  section img {
+    width: 280px; }
+  section .wrapper {
+    height: 400px;
+    width: 800px;
+    margin: 0 auto; }
+  section .about-team {
+    width: 300px;
+    float: left;
+    margin: 20px;
+    text-align: center; }

@@ -1,19 +1,42 @@
 ---
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title></title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">  
-  <link rel="stylesheet" href="/assets/css/main.css" />
-
-  </head>
-<body>
-
 {% include header.html %}
+
+{% include contact-hero.html %}
+
+
+<section>
+	<div class="contact-intro">
+		<h2>Get in touch</h2>
+
+		<p>We would like to hear from you! Drop us a line and tell us your opinion about our articles. In case you have a good topic we can look into, just drop us a line we are 
+		always open for collaborations and for new ideas.</p>
+	</div>
+
+	<div>
+		<div class="form-block">
+			<form action="demo_form.asp">
+			<input type="text" name="FirstName" value="Name"><br>
+			<input type="text" name="Email" value="Email"><br>
+			<input type="text" name="Subject" value="Subject"><br>
+			<textarea name="message" name="Message" cols="40" rows="10"></textarea>
+			<input type="submit" value="Send Message" value="Send" class="send-btn">
+			</form>
+		</div>
+	
+		<div class="social-block">
+			<h2>Social</h2>
+			<div class="social-icon">{% include icons/fb-icon.html %}</div>
+			<div class="social-icon">{% include icons/tw-icon.html %}</div>
+			<div class="social-icon">{% include icons/gh-icon.html %}</div>		
+		</div>
+
+	</div>
+
+</section>
+
 
 {% include footer.html %}
 
