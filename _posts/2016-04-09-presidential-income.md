@@ -15,7 +15,7 @@
 
 {% include header.html %}
 
-<h3 class="header">How much should a world leader get paid?</h1>
+<h3 class="header">How much should a world leader get paid?</h3>
 
 <p>The topic of world leader salaries seldom make it to the front page of newspapers. Yet there is a story to be told behind the numbers. To this day, I have not come across a formula as to how much the “most important job” in each country ought to be remunerated. Yet, one may expect the salary to be proportional to a country’s development indicator. For instance, a development statistic such as the United Nation’s HDI, or an income inequality indicator as the Gini Index may be good candidates. Whichever indicator is chosen, one may expect world leader salaries to be consistent across countries in relationship to these indicators.</p>
 
